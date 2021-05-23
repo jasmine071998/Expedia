@@ -1,0 +1,4 @@
+browser=chrome
+url=https://www.expedia.co.in
+# Here everything is key and value pair
+implicit.wait=30

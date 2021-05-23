@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="222962" started-at="2020-12-29T05:17:04Z" finished-at="2020-12-29T05:20:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="222962" started-at="2020-12-29T05:17:04Z" finished-at="2020-12-29T05:20:47Z">
+      <class name="multicityTestRunner.MultiTry">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multicityTestRunner.MultiTry@5b94b04d]" name="beforeTest" is-config="true" duration-ms="4595" started-at="2020-12-29T05:17:04Z" finished-at="2020-12-29T05:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchFlights(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:multicityTestRunner.MultiTry@5b94b04d]" name="searchFlights" duration-ms="41246" started-at="2020-12-29T05:17:09Z" data-provider="dp" finished-at="2020-12-29T05:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10 Jan 2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[21 Jan 2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method status="PASS" signature="selectFlights()[pri:2, instance:multicityTestRunner.MultiTry@5b94b04d]" name="selectFlights" duration-ms="25402" started-at="2020-12-29T05:17:52Z" finished-at="2020-12-29T05:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlights -->
+        <test-method status="PASS" signature="payment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:multicityTestRunner.MultiTry@5b94b04d]" name="payment" duration-ms="17105" started-at="2020-12-29T05:18:18Z" data-provider="dp3" finished-at="2020-12-29T05:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jasmine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7506837098]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123455662222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A-501, Raj Casle]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[400103]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jasminepinto19@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jas123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[jas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="paymentinvalid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:multicityTestRunner.MultiTry@5b94b04d]" name="paymentinvalid" duration-ms="27931" started-at="2020-12-29T05:18:35Z" data-provider="dp4" finished-at="2020-12-29T05:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jasmine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7506837098]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123455662222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A-501, Raj Casle]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[400103]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jasminepintogmail,com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jas123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[jas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinvalid -->
+        <test-method status="PASS" signature="paymentinvalid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:multicityTestRunner.MultiTry@5b94b04d]" name="paymentinvalid" duration-ms="24301" started-at="2020-12-29T05:19:04Z" data-provider="dp4" finished-at="2020-12-29T05:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alisha123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9920143582]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[652341556612]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[B-202, Royal Tower]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[400104]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[alishashah@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alisha123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alisha123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinvalid -->
+        <test-method status="PASS" signature="paymentinvalid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:multicityTestRunner.MultiTry@5b94b04d]" name="paymentinvalid" duration-ms="23646" started-at="2020-12-29T05:19:28Z" data-provider="dp4" finished-at="2020-12-29T05:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fernandes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meldrin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[652341556612]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[B-202, Royal Tower]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[400104]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[alishashah@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alisha123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alisha123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinvalid -->
+        <test-method status="PASS" signature="searchFlightsinvalid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:multicityTestRunner.MultiTry@5b94b04d]" name="searchFlightsinvalid" duration-ms="34297" started-at="2020-12-29T05:19:52Z" data-provider="dp1" finished-at="2020-12-29T05:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19 Feb 2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mangalore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10 Feb 2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsinvalid -->
+        <test-method status="PASS" signature="searchSameSrcDest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:multicityTestRunner.MultiTry@5b94b04d]" name="searchSameSrcDest" duration-ms="16567" started-at="2020-12-29T05:20:27Z" data-provider="dp2" finished-at="2020-12-29T05:20:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18 Feb 2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20 Feb 2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSameSrcDest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:multicityTestRunner.MultiTry@5b94b04d]" name="afterTest" is-config="true" duration-ms="3304" started-at="2020-12-29T05:20:44Z" finished-at="2020-12-29T05:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- multicityTestRunner.MultiTry -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
